@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/*Mis estilos*/
+.error{
+  background-color: rgba(255, 0, 0, 0.491);
+  padding: 0px 20px;
+}
+
+.card{
+  border: solid 2px white;
+}
+
+.formulario{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
