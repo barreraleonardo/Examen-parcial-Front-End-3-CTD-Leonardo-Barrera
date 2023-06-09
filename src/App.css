@@ -5,41 +5,8 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
 
 
 /*Mis estilos*/
@@ -49,11 +16,65 @@
 }
 
 .card{
-  border: solid 2px white;
+  display:flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: rgba(0, 0, 0, 0.81);
+  padding: 3rem;
+  color: #ffffff;
+
+}
+.itemsCard{
+  color: #1FDF64;
 }
 
+.titulo{
+  margin-top: 0;
+}
 .formulario{
   display:flex;
   flex-direction: column;
   justify-content: center;
+  background-color: black;
+  padding: 3rem;
+  color: #ffffff;
+}
+.inputForm{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+}
+.inputVideo{
+  display: flex;
+  text-align: start;
+  justify-content: start;
+}
+.botonAgregar{
+  background-color: #1FDF64;
+  color: black
+}
+
+
+/*MEDIA QUERY*/
+@media (max-width: 580px) {
+  .titulo{
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 487px) {
+  .titulo{
+    font-size: 2em;
+  }
+}
+@media (max-width: 422px) {
+  .titulo{
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 356px) {
+  .titulo{
+    font-size: 1.3em;
+  }
 }
